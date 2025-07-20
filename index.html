@@ -2,47 +2,58 @@
 <!DOCTYPE html>
 <html lang="tr">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta charset="UTF-8">
   <title>Matematik Serüveni</title>
   <style>
     body {
       margin: 0;
-      font-family: 'Inter', sans-serif;
-      background: #000;
-      color: #fff;
+      font-family: 'Segoe UI', sans-serif;
+      background: #0b0b0b;
+      color: white;
+      padding: 2rem;
     }
     header {
-      background: linear-gradient(90deg, #00f260, #0575e6);
-      padding: 2rem;
+      background: #111;
+      padding: 1rem 2rem;
       display: flex;
+      justify-content: space-between;
       align-items: center;
-      gap: 1.5rem;
-      color: white;
+      border-bottom: 1px solid #222;
     }
-    h1 {
+    header h1 {
+      font-size: 1.5rem;
+      color: #00f2ff;
+    }
+    nav a {
+      color: #00ffa2;
+      text-decoration: none;
+      margin-left: 2rem;
+      font-weight: bold;
+    }
+    main {
+      padding: 2rem;
+    }
+    h2 {
       font-size: 2.5rem;
-      margin: 0;
+      color: #00f2ff;
     }
     p {
-      font-size: 1rem;
-      margin: 0;
-      opacity: 0.8;
+      font-size: 1.2rem;
+      line-height: 1.6;
     }
   </style>
 </head>
 <body>
   <header>
-    <svg width="60" height="60" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" aria-label="Artan Grafik Logosu" role="img">
-      <rect x="10" y="40" width="8" height="14" fill="#00f2ff" />
-      <rect x="24" y="32" width="8" height="22" fill="#00cfff" />
-      <rect x="38" y="20" width="8" height="34" fill="#0099cc" />
-      <path d="M10 54 L20 44 L30 54 L44 30" stroke="#00f2ff" stroke-width="3" stroke-linejoin="round" />
-    </svg>
-    <div>
-      <h1>Matematik Serüveni</h1>
-      <p>Matematikte Seviye Gelişim Sistemi</p>
-    </div>
+    <h1>Matematik Serüveni</h1>
+    <nav>
+      <a href="index.html">Ana Sayfa</a>
+      <a href="paket.html">8 Saatlik Program</a>
+    </nav>
   </header>
+  <main>
+    <h2>Matematikte Seviye Gelişim Sistemi</h2>
+    <p>Her seviyeye uygun birebir matematik desteği ile, öğrencilerin temel eksiklerini belirliyor ve gelişimlerini sistematik olarak takip ediyoruz.</p>
+  </main>
 </body>
 </html>
