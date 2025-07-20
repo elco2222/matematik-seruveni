@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Grup Dersleri</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: #0d0d0d;
+      color: white;
+      padding: 2rem;
+    }
+    h1 {
+      font-size: 2rem;
+      color: #00ffa2;
+    }
+    .course {
+      background: #111;
+      border-left: 5px solid #00f2ff;
+      padding: 1rem;
+      margin-bottom: 1.5rem;
+      border-radius: 8px;
+    }
+    .course h2 {
+      margin-top: 0;
+      color: #00f2ff;
+    }
+    .course p {
+      margin: 0.5rem 0;
+    }
+    .price {
+      color: #00ffa2;
+      font-weight: bold;
+    }
+    a.button {
+      display: inline-block;
+      margin-top: 1rem;
+      padding: 0.6rem 1.2rem;
+      background: #00ffa2;
+      color: #000;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 5px;
+    }
+    a.button:hover {
+      background: #00f2ff;
+    }
+  </style>
+</head>
+<body>
+  <h1>📚 Grup Dersleri</h1>
+  <p>Birebir paket programını tamamlayan öğrenciler için %30 indirimli grup çalışmaları!</p>
+
+  <div class="course">
+    <h2>🔢 Haftalık Matematik Tekrarı</h2>
+    <p>Süre: 1 saat / Her hafta</p>
+    <p class="price">Fiyat: 150 TL → Paketli Öğrencilere: 105 TL</p>
+    <a href="#" class="button" target="_blank">Başvuru Formu</a>
+  </div>
+
+  <div class="course">
+    <h2>🧠 Problem Çözüm Atölyesi</h2>
+    <p>Süre: 1.5 saat / Her ay 2 defa</p>
+    <p class="price">Fiyat: 200 TL → Paketli Öğrencilere: 140 TL</p>
+    <a href="#" class="button" target="_blank">Başvuru Formu</a>
+  </div>
+
+  <p style="margin-top: 3rem;">📌 Her grup dersi maksimum 6 kişiliktir. Kontenjan sınırlıdır.</p>
+</body>
+</html>
